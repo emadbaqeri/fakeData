@@ -1,0 +1,14 @@
+{
+  "name": "faker_emad",
+  "version": "0.0.1",
+  "description": "Generates fake data for your application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "underscore": "*"
+  },
+  "author": "Emad Baqeri",
+  "license": "ISC"
+}
