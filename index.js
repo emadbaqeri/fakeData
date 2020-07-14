@@ -45,7 +45,23 @@ const fakeData = {
             phone.push(i.phone_number);                                            
         });
         return phone;                                                      
-    }
+    },
+    location: function(count) {
+      const users = this.users(count);
+      let location = [];
+      users.map((i) => {
+           location.push(i.location);  
+      });
+      return location; 
+    },
+    birthdate: function(count) {
+        const users = this.users(count);
+        let birthdate = [];
+        users.map((i) => {
+            birthdate.push(i.birthdate);
+        });
+        return birthdate;
+    },
 }
 
 module.exports = fakeData;

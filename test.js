@@ -14,3 +14,10 @@ console.log(users);
 
 // const phone = fakeData.phone(10);
 // console.log(phone);
+
+
+// const location = fakeData.location(10);
+// console.log({location});
+
+const birthdate = fakeData.birthdate(10);
+console.log(birthdate);
