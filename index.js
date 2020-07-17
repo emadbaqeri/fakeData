@@ -1,9 +1,9 @@
-const underscore = require('underscore');
+const _ = require('underscore');
 
 const fakeData = {
     userData: require('./data/userdata.json'),
     users: function (count) {
-        const users = underscore.sample(this.userData, count);
+        const users = _.sample(this.userData, count);
         return users;
     },
     firstname: function(count) {
@@ -61,6 +61,23 @@ const fakeData = {
             birthdate.push(i.birthdate);
         });
         return birthdate;
+    },
+    obj: function (count, options) {
+        let properties = Object.keys(options);
+        console.log(properties);
+        const data = {};
+        properties.forEach(function(item) {
+            data[item] = this[item](count);
+        }, this);
+        const result = [];
+        _.times(count, function(i) {
+            const item = {};
+            Object.keys(data).forEach(function(key) {
+                item[key] = data[key][i];
+            });
+            result.push(item);
+        });
+        return result;
     },
 }
 

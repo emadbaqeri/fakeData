@@ -1,7 +1,7 @@
 const fakeData = require('./index.js');
 
-const users = fakeData.users(1);
-console.log(users);
+// const users = fakeData.users(1);
+// console.log(users);
 
 // const names = fakeData.firstname(50);
 // console.log(names);
@@ -19,5 +19,8 @@ console.log(users);
 // const location = fakeData.location(10);
 // console.log({location});
 
-const birthdate = fakeData.birthdate(10);
-console.log(birthdate);
+const users = fakeData.obj(5, {
+    firstname: true,
+    emails: true,
+});
+console.log(users);
