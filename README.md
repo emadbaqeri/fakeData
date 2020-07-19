@@ -34,40 +34,29 @@ const users = fakeData(1, {
 - `location` - will generate you location with longitude and latitude
 - `bithdate` - will generate you birthdate 
 
+
+# More Examples
+```javascript
 const fakeData = require('fakeData');
 
-const users = fakeData.users(10);
-console.log(users);
---> ['emad baqeri', ... 8 ... , 'John Doe']
+const firstname = fakeData.firstname(5);
+const lastname = fakeData.lastname(5);
+const emails = fakeData.emails(5);
+const username = fakeData.username(5);
+const phone = fakeData.phone(5);
+const location = fakeData.location(5);
+const birthdate = fakeData.birthdate(5);
+```
 
-methods to call:
-# 1. users();
-# 2. firstname();
-# 3. lastname();
-# 4. username();
-# 5. emails();
-# 6. phone();
-# 7. location();
-
-more examples: 
---------------------------------------------------------
-firstname:
-const firstname = fakeData.firstname(1);
---> this will give you an array containing a firstname
-...
-lastname: 
-const lastname = fakeData.lastname(1);
-...
-username:
-const username = fakeData.username(1);
-...
-emails:
-const emails = fakeData.emails(1);
-...
-const phone = fakeData.phone(1);
-...
-const location = fakeData.locatopm(1);
+# Contributing
+This package is under development and I would be glad if you share your idea with me and add any line of your idea with the code that you write in this package
+Any changes would be appreciated
+-Emad Baqeri
 
 
-Any Change woudl be appreciated
-Thank you all -Emad Baqeri
+## Maintainers
+
+- [emadbaqeri](https://github.com/emadbaqeri)
+- [miladjamali](https://github.com/miladjamali)
+
+
