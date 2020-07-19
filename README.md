@@ -1,6 +1,10 @@
 # Faker 
 A Package That Will Generate Any Fake Data For You
 
+## GitHub
+- [GitHub Repo](https://github.com/emadbaqeri/fakeData.git)
+## 
+
 
 ## Installation
 
