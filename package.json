@@ -1,6 +1,6 @@
 {
   "name": "faker_emad",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Generates fake data for your application",
   "main": "index.js",
   "scripts": {
