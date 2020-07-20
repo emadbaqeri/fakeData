@@ -1,6 +1,15 @@
 # Faker 
 A Package That Will Generate Any Fake Data For You
 
+<h1 align="center">
+	<br>
+	<br>
+	<img width="320" src="media/logo.png" alt="Chalk">
+	<br>
+	<br>
+	<br>
+</h1>
+
 ## GitHub
 - [GitHub Repo](https://github.com/emadbaqeri/fakeData.git)
 ## 
