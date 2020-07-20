@@ -1,6 +1,6 @@
 {
   "name": "fakee",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "description": "Generates fake data for your application",
   "main": "index.js",
   "scripts": {
