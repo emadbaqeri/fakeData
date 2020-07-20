@@ -4,7 +4,7 @@ A Package That Will Generate Any Fake Data For You
 <h1 align="center">
 	<br>
 	<br>
-	<img width="320" src="media/logo.png" alt="Chalk">
+	<img width="320" src="media/Logo.png" alt="Fakee">
 	<br>
 	<br>
 	<br>
