@@ -70,6 +70,5 @@ Any changes would be appreciated
 ## Maintainers
 
 - [emadbaqeri](https://github.com/emadbaqeri)
-- [miladjamali](https://github.com/miladjamali)
 
 
